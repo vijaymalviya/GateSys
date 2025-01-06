@@ -1,0 +1,7 @@
+@import '../../../theme/web/custom-variables';
+
+.UserDetails{
+    height: 150px;
+    width: 100px;
+}
+

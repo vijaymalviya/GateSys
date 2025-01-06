@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("resources/fonts/open-sans/open-sans.css");
+@import "../../../theme/web/custom-variables";
 @font-face {
   font-family: "Atlas_Core$Atlas_Filled";
   src: url("./fonts/Atlas_Core$Atlas_Filled.ttf") format("truetype");
@@ -27767,6 +27768,11 @@ Do not render = "none"
 .mxfeedback-underlay {
   inset: 0;
   z-index: 1000001;
+}
+
+.UserDetails {
+  height: 150px;
+  width: 100px;
 }
 
 /*# sourceMappingURL=theme.compiled.css.map */

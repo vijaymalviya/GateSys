@@ -1,0 +1,35 @@
+ext {
+	mendixJavaVersion = 21
+	mendixInstallDir = "C:/Program Files/Mendix/10.18.0.54340"
+	projectName = "GateSys"
+	projectSafeName = "GateSys"
+	mendixProjectDir = "C:/.NetCore/MendixLearning/GateSys-main/GateSys"
+	deploymentDir = "C:/.NetCore/MendixLearning/GateSys-main/GateSys/deployment"
+	dataSnapshotFile = "C:/.NetCore/MendixLearning/GateSys-main/GateSys/data-snapshot.zip"
+	dataDir = "C:/.NetCore/MendixLearning/GateSys-main/GateSys/deployment/data"
+	extractDataSnapshot = false
+	templatesDir = "C:/Program Files/Mendix/10.18.0.54340/modeler/runtemplates"
+	runDir = "run"
+	compileTargetDir = "run/bin"
+	deploymentDirName = "deployment"
+	modelDirName = "model"
+	resourcesDirName = "resources"
+	javaSourceDirName = "javasource"
+	libDirName = "lib"
+	userlibDirName = "userlib"
+	vendorlibDirName = "vendorlib"
+	generateFullDebugInfo = false
+	excludedRunTemplatesFiles = [
+		"**/*.template"
+	]
+	publicApiJars = [
+		"runtime/bundles/com.mendix.json.jar",
+		"runtime/bundles/com.mendix.logging-api.jar",
+		"runtime/bundles/com.mendix.m2ee-api.jar",
+		"runtime/bundles/com.mendix.public-api.jar",
+		"runtime/bundles/org.eclipse.jetty.toolchain.jetty-servlet-api.jar",
+		"runtime/bundles/org.eclipse.jetty.toolchain.jetty-javax-websocket-api.jar"
+	]
+	excludedJars = []
+	protectedModules = []
+}
